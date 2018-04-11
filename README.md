@@ -1,5 +1,5 @@
-Heroku buildpack: Firefox
-=======================
+Heroku buildpack: Firefox 59.0
+================================
 
 This is a [Heroku buildpack](http://devcenter.heroku.com/articles/buildpacks) for [Firefox](http://www.mozilla.org/en-US/firefox/new/). Meant to be used in combination with something like xvfb, for headless operation.
 
@@ -9,10 +9,10 @@ Usage
 Example usage:
 
 ```shell
-$ heroku create --stack cedar --buildpack http://github.com/bensomers/firefox-buildpack
+$ heroku create --stack cedar --buildpack http://github.com/PratikMahajan/firefox-buildpack
 
 # or if your app is already created:
-$ heroku config:add BUILDPACK_URL=http://github.com/bensomers/firefox-buildpack
+$ heroku config:add BUILDPACK_URL=http://github.com/PratikMahajan/firefox-buildpack
 
 $ git push heroku master
 ```

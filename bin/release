@@ -9,3 +9,5 @@ config_vars:
 default_process_types:
   console: "vendor/firefox/firefox"
 EOF
+
+
